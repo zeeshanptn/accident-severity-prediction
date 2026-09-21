@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("notebooks/accident_severity_model.pkl")
+model = joblib.load("accident_severity_model_final_compressed.pkl")
 
 st.title("🚗 Accident Severity Prediction")
 
